@@ -83,9 +83,9 @@ print("Nuevo valor del arreglo de un elemento:", lenguaje)
 #¿Como accedo a un elemento especifico de la lista?
 print("posicion", estudiantes[0]) #¿Estara correcto?
 print("posicion", estudiantes[1]) #¿Es el primer elemento?
-print("posicion", estudiantes[3])
+print("posicion", estudiantes[3]) #¿Estara correcto?
 print("posicion", estudiantes[4]) #¿Estara correcto?
-print("posicion", estudiantes[5])
+print("posicion", estudiantes[5]) #¿Estara correcto?
 print("posicion -2", estudiantes[-2]) #¿Estara correcto?
 #iniciando otra lista de datos mixtos
 data_asig = [10023, "programacion", 1, True]
@@ -101,3 +101,51 @@ print("suma de listas",estudiantes + num)
 print(list("Python"))
 print(list(range(10)))
 print("\n")
+
+#03 - TUPLAS - (no son mutables)
+grupo1 = ("Daniel","Cristian","Felipe",200,100,"Daniel")
+print("######## 05-TUPLAS ###########") #{LLAVES}-[CORCHETES]-(PARENTESIS)
+print(type(grupo1))
+
+#Accediendo al primer elemento de la tupla
+print(grupo1[0])
+
+#Consultando el elemento "Daniel" cuantas veces se encuentra en la tupla
+print("el elemento se repite: ", grupo1.count("Daniel"))
+
+#Muestra el indice del primer elemento buscado
+print("indice del elemento: ", grupo1.index ("Daniel"))
+
+#Reasignando el primer elemento de la tupla
+"""grupo1[0] = "Franco"
+print(grupo1)"""
+
+#¿Se pueden sumar tuplas?
+grupo2 = ("Sebastian","Matias","boris","Cristian","Benjamin",10,20,30,500000)
+print("Trozo de la tupla", grupo2[0:3])
+#Obteniendo un trozo de la tupla
+print(grupo1[2:4])
+#Entonces como no puedo modificar una tupla,¿que puedo hacer?
+
+grupo1 = list(grupo1)
+print("la tupla ahora es de tipo:", type(grupo1),"\n")
+print("\n")
+#06 - SETS (Conjuntos)
+#Formas de inicializar un set
+conjunto_vacio = set()
+print(type(conjunto_vacio))
+conjunto_vacio1 = {} #¿Diccionario o set?
+print(type(conjunto_vacio1))
+conjunto_colores = set({"Azul","Rojo","Verde"}) #utilizando el conjunto set
+print(type(conjunto_colores))
+conjunto_animales = {"Gato","Perro","Lobo"}
+#print(conjunto_animales[0])
+print("el primer conjunto contiene los siguientes colores:", conjunto_colores)
+print("el segundo conjunto contiene los siguientes animales:", conjunto_animales)
+
+conjunto_colores.add("Celeste")
+print("los colores actualizados son los siguientes:", conjunto_colores)
+conjunto_animales.add("Foca")
+print("los animales actualizados son los siguientes:", conjunto_animales)
+"""-------------------------------------------------------------------------------"""
+print("##### diccionario #####")
