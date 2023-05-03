@@ -150,3 +150,24 @@ conjunto_animales.add("Foca")
 print("los animales actualizados son los siguientes:", conjunto_animales)
 """-------------------------------------------------------------------------------"""
 print("##### diccionario #####")
+diccionario = dict()
+diccionario={}
+
+datos_personales = {
+    "Nombre":"Victor",
+    "Institución":"Ulagos",
+    "Edad":29,
+    "Asignaturas":{"Estructura de Datos","Programación"}
+}
+print(datos_personales)
+print(datos_personales["Institución"])
+datos_personales["Institución"] = "USS"
+print("Diccionario actualizado", datos_personales)
+
+#AÑADIR DATOS
+datos_personales["Ciudad"] = "Osorno"
+print("Diccionario con el nuevo campo", datos_personales)
+
+#BORRAR DATOS
+del datos_personales["Ciudad"]
+print("Sin Osorno", datos_personales)
