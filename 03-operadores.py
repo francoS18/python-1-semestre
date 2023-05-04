@@ -80,4 +80,4 @@ if not bencina or (encendido and edad>=18): #CUANDO HAY 2 TRUE SE COMPARA CON LA
     print("El vehiculo puede avanzar")
 else:
     print("El vehiculo no puede arrancar")
-    """" Si = if ; Sino = else ; SinoSi = elif """
+# Si = if ; Sino = else ; SinoSi = elif 
