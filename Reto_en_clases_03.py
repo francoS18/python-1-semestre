@@ -4,13 +4,6 @@ minimo= ICA.index(min(ICA))
 print(f"la ciudad con el idice mas bajo es {ciudades[minimo]} con un indice  de {ICA[minimo]} ICA")
 maximo=ICA.index(max(ICA))
 print(f"La ciudad con el indice mas alto es {ciudades[maximo]} con un indice de {ICA[maximo]} ICA")
-#while True:
-    #elif ciudades[1] > 50:
-       # print("Temuco no")
-    #elif ciudades[2] > 50:
-        #print("Osorno no")
-   # elif ciudades[3] > 50:
-     #   print("Punta Arenas no")
 
 for i in range(len(ciudades)):
     if ICA[i] >= 0 and ICA[i] <=50:
