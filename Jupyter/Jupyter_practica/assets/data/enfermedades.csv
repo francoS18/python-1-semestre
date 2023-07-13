@@ -1,0 +1,51 @@
+Id,Enfermedad,Categoria,Hombres,Mujeres,Tratamiento
+1,Asma,Respiratoria,3000000,2000000,30000
+2,Diabetes,Endocrina,2500000,,50000
+3,Cáncer de pulmón,Respiratoria,1500000,1000000,150000
+4,Hipertensión,Cardiovascular,2000000,2500000,20000
+5,Epilepsia,Neurológica,,1500000,45000
+6,Artritis,Ósea,1700000,1600000,40000
+7,Esquizofrenia,Psiquiátrica,1800000,,70000
+8,Cáncer de mama,Onco.,,1800000,100000
+9,Alzheimer,Neurológica,1600000,1400000,80000
+10,Osteoporosis,Ósea,,2000000,60000
+11,Parkinson,Neurológica,1400000,,50000
+12,Enfermedad renal crónica,Urológica,1300000,1200000,90000
+13,Hepatitis B,Hepática,1000000,,100000
+14,VIH/SIDA,Infecciosa,950000,900000,110000
+15,Depresión mayor,Psiquiátrica,,850000,120000
+16,Accidente cerebrovascular,Neurológica,800000,,130000
+17,Asma,Respiratoria,750000,700000,140000
+18,Epilepsia,Neurológica,700000,,150000
+19,Diabetes,Endocrina,,650000,160000
+20,Cáncer de pulmón,Respiratoria,600000,,170000
+21,Hipertensión,Cardiovascular,550000,500000,180000
+22,Artritis,Ósea,,450000,190000
+23,Esquizofrenia,Psiquiátrica,400000,,200000
+24,Cáncer de mama,Onco.,,350000,210000
+25,Alzheimer,Neurológica,300000,250000,220000
+26,Osteoporosis,Ósea,250000,,230000
+27,Parkinson,Neurológica,,200000,240000
+28,Enfermedad renal crónica,Urológica,150000,100000,250000
+29,Hepatitis B,Hepática,100000,,260000
+30,VIH/SIDA,Infecciosa,,50000,270000
+31,Depresión mayor,Psiquiátrica,40000,,280000
+32,Accidente cerebrovascular,Neurológica,,30000,290000
+33,Asma,Respiratoria,20000,,300000
+34,Epilepsia,Neurológica,,10000,310000
+35,Diabetes,Endocrina,8000,,320000
+36,Cáncer de pulmón,Respiratoria,,7000,330000
+37,Hipertensión,Cardiovascular,6000,,340000
+38,Artritis,Ósea,,5000,350000
+39Esquizofrenia,Psiquiátrica,4000,,360000
+40,Cáncer de mama,Onco.,,3000,370000
+41,Alzheimer,Neurológica,2000,,380000
+42,Osteoporosis,Ósea,,1000,390000
+43,Parkinson,Neurológica,1000,,400000
+44,Enfermedad renal crónica,Urológica,,900,410000
+45,Hepatitis B,Hepática,800,,420000
+46,VIH/SIDA,Infecciosa,,700,430000
+47,Depresión mayor,Psiquiátrica,600,,440000
+48,Accidente cerebrovascular,Neurológica,,500,450000
+49,Asma,Respiratoria,400,,460000
+50,Epilepsia,Neurológica,,300,470000

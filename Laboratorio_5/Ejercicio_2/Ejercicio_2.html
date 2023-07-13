@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora IMC</title>
+    <script src="./Ejercicio_2.js" defer></script>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        input{
+            margin-bottom: 15px;
+            border-style: outset;
+            border-color: black;
+            border-radius: 2px;
+        }
+        select{
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Calculadora IMC</h2>
+    <form>
+        <div>
+            <label for="">Nombre:</label>
+            <input type="text" id="txtnombre" name="Nombre" placeholder="Nombre" required>
+        </div>
+        <div>
+            <label for="">Peso (kg):</label>
+            <input type="number" id="numpeso" name="Peso" min="0" max="200" placeholder="Peso (kg)" required>
+        </div>
+        <div>
+            <label for="">Altura (m):</label>
+            <input type="number" id="numaltura" name="Altura" min="0" max="3.0" placeholder="Altura (m)" required>
+        </div>
+        <div>
+            <label for="">Edad:</label>
+            <input type="number" id="numedad" name="Edad" min="1" max="130" placeholder="Edad" required>
+        </div>
+        <div>
+            <label for="">Genero:</label>
+            <select name="Genero" id="gen">
+                <option value="Masculino">Masculino</option>
+                <option value="Femenino">Femenino</option>
+            </select>
+        </div>
+        <div>
+            <label for="">Actividad fisica:</label>
+            <select name="Actividad fisica" id="act">
+                <option value="Sedentario">Sedentario</option>
+                <option value="Moderado">Moderado</option>
+                <option value="Activo">Activo</option>
+            </select>
+        </div>
+    </form>
+    <div>
+        <input type="submit" id="boton_calcular" value="Calcular">
+    </div>
+    <div>
+        <p id="resultado_imc"></p>
+        <p id="clasificacion_imc"></p>
+        <p id="actividad_fisica"></p>
+        <p id="estado_nutricional"></p>
+    </div>
+</body>
+</html>

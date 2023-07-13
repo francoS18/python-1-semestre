@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<!-- Inicio del documento -->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Menu comida rápida</title>
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+
+    <!-- Aqui se le da un contorno mas agradable a las cajas de información -->
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        input{
+            margin-bottom: 12px;
+            border-style: outset;
+            border-color: black;
+            border-radius: 5px;
+        }
+    </style>
+
+    <!-- Esto es todo el contenido de la página web -->
+<body>
+    <div>
+        <h1>Menú de comida rápida</h1>
+    </div>
+    <div>
+        <h2>Selecciona un plato</h2>
+    </div>
+    <form>
+        <ul>
+         <li>Hamburguesa - $3000: <input type="number" id="hamburguesa" name="hamburguesa" min="0" max="100" placeholder="Cantidad"></li>
+            <li>Pizza - $4200: <input type="number" id="pizza" name="pizza" min="0" max="100" placeholder="Cantidad"></li>
+            <li>Hot dog - $2500: <input type="number" id="hot_dog" name="hot_dog" min="0" max="100" placeholder="Cantidad"></li>
+            <li>Ensalada - $1600: <input type="number" id="ensalada" name="ensalada" min="0" max="100" placeholder="Cantidad"></li>
+            <li>Papas fritas - $2000: <input type="number" id="papas_fritas" name="papas_fritas" min="0" max="100" placeholder="Cantidad"></li>
+        </ul>
+    </form>
+    <div>  
+        <button type="button" id="boton_calcular"><b>Calcular pedido</b></button>
+    </div>
+    <div>
+        <p id="total_resultado"></p>
+        <p id="iva_resultado"></p>
+        <p id="valor_resultado"></p>
+
+    </div>
+
+    <!-- Footer -->
+    <footer> Tema 9 Sección 1 &copy; 2023 </footer>
+
+    <!-- Conexión con el archivo JavaScript para realizar las operaciones -->
+    <script src="/js/Ejercicio_9.js" defer></script>
+
+</body>
+</html>

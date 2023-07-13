@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora de propinas</title>
+    <script src="./Ejercicio_1.js" defer></script>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        input{
+            margin-bottom: 15px;
+            border-style: outset;
+            border-color: black;
+            border-radius: 2px;
+        }
+        select{
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Calculadora de propinas</h2>
+    <div>
+        <form action="">
+            <div>
+                <label>Total de la boleta:</label>
+                <input type="number" min="1000" max="1000000" id="monto" name="Monto" placeholder="Ingrese un monto:">
+            </div>
+            <div>
+                <label for="select">Porcentaje de propina:</label>
+                <select name="propina" id="propina">
+                    <option value="10%">10%</option>
+                    <option value="15%">15%</option>
+                    <option value="20%">20%</option>
+                </select>
+            </div>
+        </form>
+        <div><input type="submit" id="calcular" value="Calcular">
+        </div>
+        <p id="presultado"></p>
+        <p id="tresultado"></p>
+    </div>
+</body>
+</html>
